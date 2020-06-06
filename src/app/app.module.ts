@@ -3,9 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ShoppingListComponent } from './ShoppingList/shopping-list/shopping-list.component';
+import {ShoppingListComponent } from './ShoppingList/ShoppingList.component'
 import { ShoppingListEditComponent } from './ShoppingList/shopping-list-edit/shopping-list-edit.component';
-import { IngredientComponent } from './ShoppingList/ingredient/ingredient.component';
+import { RecipeComponent } from './RecipeBook/Recipe.component';
+import { RecipeListComponent } from './RecipeBook/recipe-list/recipe-list.component';
+import { RecipeDetailsComponent } from './RecipeBook/recipe-details/recipe-details.component';
+import { RecipeItemComponent } from './RecipeBook/recipeList/recipe-item/recipe-item.component';
+
 
 @NgModule({
   declarations: [
@@ -13,7 +17,10 @@ import { IngredientComponent } from './ShoppingList/ingredient/ingredient.compon
     HeaderComponent,
     ShoppingListComponent,
     ShoppingListEditComponent,
-    IngredientComponent
+    RecipeComponent,
+    RecipeListComponent,
+    RecipeDetailsComponent,
+    RecipeItemComponent
   ],
   imports: [
     BrowserModule
